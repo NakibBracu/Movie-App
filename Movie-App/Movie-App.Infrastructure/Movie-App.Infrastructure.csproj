@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Movie_App.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Movie-App.Application\Movie-App.Application.csproj" />
+    <ProjectReference Include="..\Movie-App.Domain\Movie-App.Domain.csproj" />
+    <ProjectReference Include="..\Movie-App.Persistence\Movie-App.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
